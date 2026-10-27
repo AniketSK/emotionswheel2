@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Soft, muted palette: calm for sensory-sensitive users, still distinct per emotion -->
+  <rect width="512" height="512" rx="112" fill="#FBF7F0"/>
+  <g fill="none" stroke-width="130" stroke-dasharray="100 748.23">
+    <!-- 8 core emotions (Plutchik), r=135 → circumference 848.23, 8 × 106.03 with 6px gaps -->
+    <circle cx="256" cy="256" r="135" stroke="#F2D479" transform="rotate(-112.5 256 256)"/><!-- joy -->
+    <circle cx="256" cy="256" r="135" stroke="#A8D5A2" transform="rotate(-67.5 256 256)"/><!-- trust -->
+    <circle cx="256" cy="256" r="135" stroke="#7FC4B8" transform="rotate(-22.5 256 256)"/><!-- fear -->
+    <circle cx="256" cy="256" r="135" stroke="#8EC5E8" transform="rotate(22.5 256 256)"/><!-- surprise -->
+    <circle cx="256" cy="256" r="135" stroke="#8FA8DE" transform="rotate(67.5 256 256)"/><!-- sadness -->
+    <circle cx="256" cy="256" r="135" stroke="#B7A0D8" transform="rotate(112.5 256 256)"/><!-- disgust -->
+    <circle cx="256" cy="256" r="135" stroke="#E89A9A" transform="rotate(157.5 256 256)"/><!-- anger -->
+    <circle cx="256" cy="256" r="135" stroke="#F2B880" transform="rotate(202.5 256 256)"/><!-- anticipation -->
+  </g>
+  <!-- Calm centre face: simple, predictable, no exaggerated expression -->
+  <circle cx="256" cy="256" r="58" fill="#FFFFFF"/>
+  <circle cx="236" cy="246" r="7" fill="#4A4A5A"/>
+  <circle cx="276" cy="246" r="7" fill="#4A4A5A"/>
+  <path d="M234 272 Q256 288 278 272" fill="none" stroke="#4A4A5A" stroke-width="7" stroke-linecap="round"/>
+</svg>
